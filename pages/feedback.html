@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>7 Wonders of the world</title>
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="../styles/feedback.css">
+    <link rel="icon" href="images/Treetog-Junior-Earth.ico">
+</head>
+
+<body>
+
+  <header>
+      <!--        Referenced from: googleimages .com-->
+  	<a href="../index.html"><img src="../images/icon.jpg" alt="website
+        Logo" width="70"></a>
+    <h2>7 Wonders of the World</h2>
+    <h3>Feedback form</h3>
+  </header>
+    <nav id="nav_menu">
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/Table.html">Continents</a>
+            <ul>
+                <li><a href="../pages/Table.html">Europe</a></li>
+                <li><a href="../pages/Table.html">North America</a></li>
+                <li><a href="../pages/Table.html">South America</a></li>
+                <li><a href="../pages/Table.html">Asia</a>
+                    <ul>
+                        <li><a href="../pages/Table.html">Taj Mahal</a></li>
+                        <li><a href="../pages/Table.html">Great Wall</a></li>
+                    </ul>
+                </li>    
+                <li><a href="../pages/Table.html">Australia</a></li>
+                <li><a href="../pages/Table.html">Antarctica</a></li>
+            </ul>
+        </li>
+        <li><a href="../pages/Images.html">Images</a></li>
+ <li class="lastitem"><a href="../pages/feedback.html" class="current"> Feedback</a>
+            <ul>
+                <li><a href="pages/feedback.html">Feedback page</a></li>
+                <li><a href="mailto:mbedi2291@conestogac.on.ca">Mail Us</a></li>
+                <li><a href="skype:Mrinal Bedi">Skype</a></li>    
+                <li><a href="tel:2269781034">Call us:</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+  <main>
+	<aside id="left">
+        <nav id="nav_list">
+   		<ul>
+            <!--        Referenced from: googleimages .com-->
+   			<li><a href="../index.html"><img src="../thumbnails/home%20icon.jpg" width="70" alt="home icon">Home</a></li>
+   			<li><a href="../pages/Images.html"><img src="../thumbnails/image%20icon.png" width="70" alt="Gallery icon">Images </a></li>
+   			<li><a href="../pages/feedback.html"><img src="../thumbnails/feedback-form-icon.png" width="70" alt="Feddback form icon">Feedback</a></li>
+		</ul>
+            </nav>
+	</aside>
+	<section>
+    	<h2>Please enter the following details:</h2>
+        <br>
+        <form action="Thanks.html" method="get" name="feedback">
+            
+    <label for="Name">Full name:</label>
+    <input type="text" name="Name" id="Full_name" required  tabindex="0">
+            <br>
+    <label for="E-mail">Email:</label>
+    <input type="email" name="Email" id="Email" required tabindex="1">
+    <br>
+    <label for="hobbies">Hobby:</label>
+        <select name="Hobby" id="select" tabindex="2">
+            <optgroup label="Indoor">
+                <option value="Music">Music</option>
+                <option value="Movies">Movies</option>
+                <option value="Cards">Cards</option>
+            </optgroup>
+            <optgroup label="Outdoor">
+                <option value="Soccer">Soccer</option>
+                <option value="Cycling">Cycling</option>
+                <option value="Camping">Camping</option>
+            </optgroup>
+            </select>
+        <br>
+    <label for="Favourite">Favourite Wonders:</label>
+        <select id="favourite" name="Favourite"  multiple tabindex="3">
+                <option value="Great Wall of China">Great Wall of China</option>
+                <option value="Taj Mahal">Taj Mahal</option>
+                <option value="Christ the Redeemer">Christ the Redeemer</option>
+                <option value="Petra Jordan">Petra Jordan</option>
+                <option value="Machu Picchu">Machu Picchu</option>
+                <option value="The Colosseum Rome">The Colosseum Rome</option>
+                <option value="Chichen Itza">Chichen Itza</option>
+            
+            </select>
+            
+         <br>
+            
+    <label for="Comments" id="comments">Comments:</label>
+    <textarea id="area" rows="7" cols="50" placeholder="Enter your comments" tabindex="4"></textarea>
+            
+    <input class="button" type="submit" value="Submit" tabindex="5">
+    <input class="button" type="reset" value="Reset" tabindex="6">
+        
+        </form>
+        
+        
+	</section>      
+    <aside id=#Right>
+        <form action="page/thanks.html">
+        Would you visit the website again?
+            <br><br>
+
+            <input id="radio" type="radio" name="yes" tabindex="0">YES
+            &nbsp;&nbsp;
+            <input id="radio" type="radio" name="no" tabindex="1">NO
+            <br>
+            <br>
+            
+            <p>How was the website?</p>
+            <br>
+            <input type="checkbox" name="Fun" value="Fun" tabindex="2">Fun to visit
+            <br><br>
+            <input type="checkbox" name="Well" value="Well designed" tabindex="3">Well built
+            <br><br>
+            <input type="checkbox" name="Fun" Informative="Informative" tabindex="4">Informative
+            <br><br>
+            <input type="checkbox" name="Not useful" value="Not useful" tabindex="5">Not useful
+            <br><br>
+            
+        
+        </form>
+      </aside>
+  </main>
+
+  <footer>
+	<p>&copy; 2020 7 Wonders of the world</p>
+  </footer>
+</body>
+</html>
